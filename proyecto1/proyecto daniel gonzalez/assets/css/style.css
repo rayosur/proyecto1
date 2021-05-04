@@ -1,0 +1,266 @@
+
+/* hero-quotes */
+.hero { 
+    border-left: orangered solid 3px; /* para poner un borde solido a la caja */
+    background-color: #F2F3F4;
+    width:580px; 
+    height: 170px;
+    position: relative; 
+    }
+
+.phero  { /*Parrafo del Contenedor*/
+    color:#7F8C8D;
+    text-align:left;
+    font-size: 15;
+    font-family:Quicksand;
+    position: relative; 
+    top:25%;
+    margin:3%; 
+}
+
+
+.boton {
+    /* Para posicionar botones al centro del contenedor */
+    display: flex;
+    justify-content: center;
+}
+ 
+.boton1:focus{  /* Le decimos cuando se haga clic con el mouse cambie de color */
+   background-color:#5F6A6A;
+}
+.boton1{
+    margin:3px;
+    width:10px;
+   height: 10px;
+    border-radius:80%;
+    border:none;
+    background:#C4C4C4;
+}
+
+.contenedor  { /*Parrafo del Contenedor*/
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-end;
+}
+
+.JamesDoe {
+    margin-top:5%;
+    width:63px;
+    height: 53;
+    float:left; /* Para alinear el texto alado de la img */
+    margin-right: 20px;
+}
+.texim { /*  Parrafo de imagen James Doeas */
+    width: 173;
+    height: 37;
+    color:#989FB2;
+    font-family:Quicksand;
+    font-size: 12px bolt;
+    text-align: left; /*  Alineado a la derecha */   
+}
+
+/*  aqui termina hero-quotes */
+
+
+/*  Aqui empieza el Tu Código benefits-section */
+
+    .contenedor2 {  /* Contenedor sección */
+        display: grid;
+        grid-template-columns: 28% 28% 28%;
+        grid-template-rows: 50% 50%;
+        text-align: center;
+        justify-content: center;
+        grid-gap: 13px;
+      }
+      
+    .imgiconos { /* Iconos de la sección */
+        width: 51px;
+        height: 48px;
+        Display: flex;
+        margin: auto;
+    }
+    
+    
+    
+    .parrafos{ /* Titulos de la sección*/
+font-family: Quicksand;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align:center;
+color:black;
+ }
+
+ /*  aqui termina Tu Código benefits-section */
+
+
+ /*  Tu Código What's Included empieza aqui */
+
+ h3 { /* Titulos h3 de la sección lo alineamos al centro de la web*/
+    text-align: center;
+     }
+
+.imgsecion3 { 
+height: 363px;
+width: 304px;
+left: 339px;
+top: 1516px;
+border-radius: 0px;
+margin-top: 50px;
+float:left;
+  }
+
+  .lista { 
+      list-style: none;  /* con none ocultaremos los puntitos de la lista*/
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black
+    
+         }
+    .caja3 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botom3 { 
+ height: 44px;
+width: 161px;
+left: 725px;
+top: 1814px;
+border-radius: 200px;
+background: #EC6524;
+color:white;
+ /* con margenes posicionaremos el botom donde queremos.*/
+margin-left: -188px;
+margin-top: 353px;
+}
+
+ /*  Tu Código What's Included Termina aqui. */
+
+/*   Tu Código form-section empieza aqui */
+
+.caja4 { 
+    height: 202px;
+width: 629px;
+left: 329px;
+top: 2482px;
+border-radius: 0px;
+margin-left: 237px;
+background: #F7F8FC;
+}
+
+.titucaja4 { 
+font-family: Quicksand;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 94px;/* Bajar la altura del titulo en la caja*/
+   }
+
+
+.secform { 
+margin-left:31px;
+}
+.pcaj4 { 
+font-family: Quicksand;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;color: #8F9DB7;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: -25px;
+
+ 
+       }
+       
+ .form { 
+    float:left;
+    margin-left: 117px;
+    margin-right: 5px;
+}
+     
+    .botom4 { 
+
+        height: 45px;
+        width: 72px;
+        left: 807px;
+        top: 2603px;
+        border-radius: 5px;
+        background: #EC6524;
+        color:white;  }
+         /*  Tu Código What's Included Termina aqui*/
+
+        .padrediv { 
+                
+     width: 100%;
+     height: 480px;
+     font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+            } 
+         .contenedores{ 
+        
+        background:#F7F8FC;
+        height: 183px;
+        width: 292px;
+        }
+        .contarriba{ 
+            display: grid;
+            grid-template-columns: 33% 33% 32%;
+            grid-template-rows: 102% 74%;
+            grid-gap: 6% 3%;
+            margin-bottom: 34px;
+        }
+        .contabajo{ 
+            display: grid;
+            grid-template-columns: 62% 82%;
+            grid-template-rows: 114%;
+            justify-content: center;
+            margin-left: 114px;
+            margin-right: -155px;
+        }
+        .img5{ 
+            height: 46.774192810058594px;
+            width: 50px;
+            left: 271px;
+            margin-left: 17px;
+            top: 2997px;
+            
+        }
+        .svico { 
+            margin-left: 125px;
+            margin-top: -25px;
+           
+            
+        }
+
+
+
+         
+        
+   
+    
+            
+
+
+    
+
+
+
+       
